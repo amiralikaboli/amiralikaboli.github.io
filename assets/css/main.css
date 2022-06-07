@@ -2743,13 +2743,13 @@ input, select, textarea {
 
 			#header > header .avatar {
 				display: block;
-				margin: 0 auto 2.25em auto;
+				margin: 0 auto 1em auto;
 				width: 8em;
 			}
 
 			#header > header h1 {
 				font-size: 1.75em;
-				margin: 0;
+				margin: 0 0 0.5em 0;
 			}
 
 			#header > header p {
