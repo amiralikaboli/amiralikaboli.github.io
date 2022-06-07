@@ -2707,8 +2707,10 @@ input, select, textarea {
 		position: fixed;
 		text-align: center;
 		top: 0;
-		width: 23em;
+		width: 18em;
 		left: 0;
+		font-size: 12pt;
+		line-height: 1.5em;
 	}
 
 		#header h1, #header h2, #header h3, #header h4, #header h5, #header h6 {
@@ -2819,7 +2821,7 @@ input, select, textarea {
 
 	#wrapper {
 		background: #fff;
-		padding-left: 23em;
+		padding-left: 10em;
 	}
 
 /* Main */
@@ -2877,27 +2879,13 @@ input, select, textarea {
 		/* Basic */
 
 			body, input, select, textarea {
-				font-size: 13pt;
+				font-size: 14pt;
 			}
-
-		/* Header */
-
-			#header {
-				width: 21em;
-			}
-
-				#header > header {
-					padding: 2em;
-				}
-
-				#header > footer {
-					padding: 1.5em;
-				}
 
 		/* Wrapper */
 
 			#wrapper {
-				padding-right: 21em;
+				padding-left: 15em;
 			}
 
 		/* Main */
@@ -2921,13 +2909,14 @@ input, select, textarea {
 		/* Header */
 
 			#header {
-				width: 20em;
+				width: 15em;
+				font-size: 11pt;
 			}
 
 		/* Wrapper */
 
 			#wrapper {
-				padding-right: 20em;
+				padding-left: 15em;
 			}
 
 	}
@@ -3315,6 +3304,8 @@ input, select, textarea {
 
 	}
 
+
+/* CUSTOM */
 	.sectionheight {
 	    min-height: 100vh;
 	}
