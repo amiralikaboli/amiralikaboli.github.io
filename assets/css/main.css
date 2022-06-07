@@ -99,10 +99,10 @@ input, select, textarea {
 
 	body, input, select, textarea {
 		color: #888;
-		font-family: "Lato", sans-serif;
+		font-family: "Open Sans", sans-serif;
 		font-size: 16pt;
 		font-weight: 400;
-		line-height: 1.75em;
+		line-height: 1.2em;
 	}
 
 	a {
@@ -3306,6 +3306,21 @@ input, select, textarea {
 
 
 /* CUSTOM */
-	.sectionheight {
+	.pageheight {
 	    min-height: 100vh;
+	}
+
+	.scale {
+	    height: 1em;
+        width: auto;
+	}
+
+	.ul1 {
+        list-style-type: disc;
+        margin-left: 1em;
+	}
+
+	.ul2 {
+	    list-style-type: circle;
+	    margin-left: 1em;
 	}
