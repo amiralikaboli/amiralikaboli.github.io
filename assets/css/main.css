@@ -2750,7 +2750,7 @@ input, select, textarea {
 
 			#header > header h1 {
 				font-size: 1.75em;
-				margin: 0 0 0.5em 0;
+				margin: 0;
 			}
 
 			#header > header p {
@@ -2766,7 +2766,7 @@ input, select, textarea {
 			flex-shrink: 0;
 			bottom: 0;
 			left: 0;
-			padding: 2em;
+			padding: 1em;
 			width: 100%;
 		}
 
@@ -2806,7 +2806,7 @@ input, select, textarea {
 						border: 0;
 						color: #ffffff !important;
 						display: block;
-						padding: 0.85em 0;
+						padding: 0.8em 0;
 						text-decoration: none;
 					}
 
@@ -2971,12 +2971,12 @@ input, select, textarea {
 				overflow-y: auto;
 				position: fixed;
 				top: 0;
-				width: 23em;
+				width: 15em;
 				z-index: 10002;
-				-moz-transform: translateX(-23em);
-				-webkit-transform: translateX(-23em);
-				-ms-transform: translateX(-23em);
-				transform: translateX(-23em);
+				-moz-transform: translateX(-15em);
+				-webkit-transform: translateX(-15em);
+				-ms-transform: translateX(-15em);
+				transform: translateX(-15em);
 				left: 0;
 			}
 
@@ -3082,10 +3082,10 @@ input, select, textarea {
 					}
 
 			body.header-visible #wrapper, body.header-visible #titleBar {
-				-moz-transform: translateX(23em);
-				-webkit-transform: translateX(23em);
-				-ms-transform: translateX(23em);
-				transform: translateX(23em);
+				-moz-transform: translateX(15em);
+				-webkit-transform: translateX(15em);
+				-ms-transform: translateX(15em);
+				transform: translateX(15em);
 			}
 
 			body.header-visible #header {
@@ -3168,11 +3168,11 @@ input, select, textarea {
 		/* Header */
 
 			#header {
-				width: 17em;
-				-moz-transform: translateX(-17em);
-				-webkit-transform: translateX(-17em);
-				-ms-transform: translateX(-17em);
-				transform: translateX(-17em);
+				width: 12em;
+				-moz-transform: translateX(-12em);
+				-webkit-transform: translateX(-12em);
+				-ms-transform: translateX(-12em);
+				transform: translateX(-12em);
 				left: 0;
 			}
 
@@ -3234,10 +3234,10 @@ input, select, textarea {
 				}
 
 			body.header-visible #wrapper, body.header-visible #titleBar {
-				-moz-transform: translateX(17em);
-				-webkit-transform: translateX(17em);
-				-ms-transform: translateX(17em);
-				transform: translateX(17em);
+				-moz-transform: translateX(12em);
+				-webkit-transform: translateX(12em);
+				-ms-transform: translateX(12em);
+				transform: translateX(12em);
 			}
 
 	}
