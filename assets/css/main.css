@@ -3309,28 +3309,45 @@ input, select, textarea {
 
 /* CUSTOM */
 	.pageheight {
-	    min-height: 100vh;
+		min-height: 100vh;
 	}
 
 	.scale {
-	    height: 1em;
-        width: auto;
+		height: 1em;
+		width: auto;
 	}
 
 	.ul1 {
-        list-style-type: disc;
-        margin-left: 1em;
+		list-style-type: disc;
+		margin-left: 1em;
 	}
 
 	.ul2 {
-	    list-style-type: circle;
+		list-style-type: circle;
 	}
 
 	.tab {
-	    display: inline-block;
-        margin-left: 1em;
+		display: inline-block;
+		margin-left: 1em;
 	}
 
 	.right {
-	    float:right;
+		float:right;
+	}
+
+	::-webkit-scrollbar {
+		width: 0.5em;
+	}
+
+	::-webkit-scrollbar-track {
+		background: #f1f1f1;
+	}
+
+	::-webkit-scrollbar-thumb {
+		background: #888;
+		border-radius: 100px;
+	}
+
+	::-webkit-scrollbar-thumb:hover {
+		background: #666;
 	}
