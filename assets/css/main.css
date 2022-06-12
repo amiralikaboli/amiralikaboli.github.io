@@ -2018,7 +2018,6 @@ input, select, textarea {
 		text-decoration: none;
 		border-bottom: none;
 		position: relative;
-		margin: 0 0.5em 0 0;
 	}
 
 		.icon:before {
@@ -3325,6 +3324,11 @@ input, select, textarea {
 
 	.ul2 {
 		list-style-type: circle;
+	}
+
+	.halftab {
+	    display: inline-block;
+		margin-left: 0.5em;
 	}
 
 	.tab {
