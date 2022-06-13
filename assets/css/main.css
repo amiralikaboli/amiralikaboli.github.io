@@ -2881,12 +2881,6 @@ input, select, textarea {
 
 	@media screen and (max-width: 1680px) {
 
-		/* Basic */
-
-			body, input, select, textarea {
-				font-size: 14pt;
-			}
-
 		/* Wrapper */
 
 			#wrapper {
@@ -3356,3 +3350,19 @@ input, select, textarea {
 	::-webkit-scrollbar-thumb:hover {
 		background: #666;
 	}
+
+	.image.avatar.col {
+        border-radius: 100%;
+        overflow: hidden;
+        width: 50%;
+    }
+
+    .image.avatar.col img {
+        border-radius: 100%;
+        display: block;
+        width: 100%;
+    }
+
+    .container > .major > .row {
+        margin-bottom: 2em;
+    }
