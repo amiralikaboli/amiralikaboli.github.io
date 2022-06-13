@@ -3238,6 +3238,9 @@ input, select, textarea {
 				transform: translateX(12em);
 			}
 
+		.right {
+			display: none;
+		}
 	}
 
 /* XSmall */
@@ -3331,7 +3334,7 @@ input, select, textarea {
 	}
 
 	.right {
-		float:right;
+		float: right;
 	}
 
 	::-webkit-scrollbar {
