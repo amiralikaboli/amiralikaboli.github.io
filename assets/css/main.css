@@ -2792,8 +2792,6 @@ input, select, textarea {
 				list-style: none;
 				margin: 0;
 				padding: 0;
-				position: relative;
-				top: 20%;
 			}
 
 				#header > nav ul li {
@@ -3368,3 +3366,11 @@ input, select, textarea {
     .container > .major > .row {
         margin-bottom: 2em;
     }
+
+	#header > nav {
+		flex-grow: 1;
+		height: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
