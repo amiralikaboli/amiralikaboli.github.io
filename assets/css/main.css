@@ -3321,6 +3321,7 @@ input, select, textarea {
 
 	.ul2 {
 		list-style-type: circle;
+		margin-top: 0.5em;
 	}
 
 	.halftab {
