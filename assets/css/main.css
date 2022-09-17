@@ -1762,7 +1762,6 @@ input, select, textarea {
 	}
 
 	header p {
-		color: #aaa;
 		position: relative;
 		margin: 0 0 1.6875em 0;
 	}
@@ -1790,6 +1789,7 @@ input, select, textarea {
 	header.major h2 {
 		color: #4acaa8;
 		font-size: 3.5em;
+		margin-top: 20%;
 	}
 
 		header.major h2 + p {
@@ -3342,6 +3342,16 @@ input, select, textarea {
 		display: inline;
 	}
 
+	.bold {
+		font-weight: 700;
+	}
+
+	.about {
+		font-size: 1.5em;
+		line-height: 1.5em;
+		margin-top: 0;
+	}
+
 	::-webkit-scrollbar {
 		width: 0.5em;
 	}
@@ -3362,7 +3372,7 @@ input, select, textarea {
 	.image.avatar.col {
         border-radius: 100%;
         overflow: hidden;
-        width: 50%;
+        width: 60%;
     }
 
     .image.avatar.col img {
@@ -3372,7 +3382,8 @@ input, select, textarea {
     }
 
     .container > .major > .row {
-        margin-bottom: 2em;
+        margin-top:8%;
+        margin-bottom:0;
     }
 
 	#header > nav {
