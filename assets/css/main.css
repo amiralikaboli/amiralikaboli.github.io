@@ -103,7 +103,7 @@ input, select, textarea {
 		font-family: "Open Sans", sans-serif;
 		font-size: 14pt;
 		font-weight: 400;
-		line-height: 1.2em;
+		line-height: 1.5em;
 		text-align: justify;
         text-justify: inter-word;
 	}
@@ -3336,6 +3336,10 @@ input, select, textarea {
 
 	.right {
 		float: right;
+	}
+
+	ul li h4 {
+		display: inline;
 	}
 
 	::-webkit-scrollbar {
