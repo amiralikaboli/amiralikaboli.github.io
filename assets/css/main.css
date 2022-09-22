@@ -1712,7 +1712,7 @@ input, select, textarea {
 	.container {
 		margin: 0 auto;
 		max-width: calc(100% - 4.5em);
-		width: 50em;
+		width: 60em;
 	}
 
 		.container.xsmall {
@@ -2711,7 +2711,7 @@ input, select, textarea {
 		position: fixed;
 		text-align: center;
 		top: 0;
-		width: 18em;
+		width: 15em;
 		left: 0;
 		font-size: 12pt;
 		line-height: 1.5em;
@@ -2826,7 +2826,7 @@ input, select, textarea {
 
 	#wrapper {
 		background: #fff;
-		padding-left: 10em;
+		padding-left: 7.5em;
 	}
 
 /* Main */
@@ -2884,7 +2884,7 @@ input, select, textarea {
 		/* Wrapper */
 
 			#wrapper {
-				padding-left: 15em;
+				padding-left: 12em;
 			}
 
 		/* Main */
@@ -2908,14 +2908,14 @@ input, select, textarea {
 		/* Header */
 
 			#header {
-				width: 15em;
+				width: 12em;
 				font-size: 11pt;
 			}
 
 		/* Wrapper */
 
 			#wrapper {
-				padding-left: 15em;
+				padding-left: 10em;
 			}
 
 	}
@@ -3387,8 +3387,8 @@ input, select, textarea {
     }
 
     .container > .major > .row {
-        margin-top:8%;
-        margin-bottom:0;
+        margin-top: 7%;
+        margin-bottom: -1em;
     }
 
 	#header > nav {
