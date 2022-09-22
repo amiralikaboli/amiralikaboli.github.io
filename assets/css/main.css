@@ -3352,6 +3352,11 @@ input, select, textarea {
 		margin-top: 0;
 	}
 
+	.name {
+		font-weight: 700;
+		font-size: 1.2em;
+	}
+
 	::-webkit-scrollbar {
 		width: 0.5em;
 	}
